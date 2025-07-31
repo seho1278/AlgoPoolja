@@ -31,7 +31,7 @@
 
 ### 1. 프로젝트 Clone
 ```bash
-git clone [https://github.com/SSAFYstudyAlgoPoolja/week1]
+git clone https://github.com/SSAFYstudyAlgoPoolja/week1
 ```
 
 ### 2. STS에서 프로젝트 Import
