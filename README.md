@@ -1,7 +1,7 @@
 # week1
-## 1주차 문제 공유
+## 1주차 문제 공유! 이번주 알고리즘 주제는 **완전탐색** 입니다!
 ---
-# 문제 목록!
+# 문제 목록
 
 ## 문제 1: 13038. 교환학생
 **플랫폼**: SW Expert Academy  
@@ -31,7 +31,7 @@
 
 ### 1. 프로젝트 Clone
 ```bash
-git clone [repository-url]
+git clone [https://github.com/SSAFYstudyAlgoPoolja/week1]
 ```
 
 ### 2. STS에서 프로젝트 Import
