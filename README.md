@@ -24,12 +24,12 @@
 
 | 번호 | 문제 | 문제제 | 힌트 |
 |------|------|------|------|
-| 1 | 13038. 교환학생 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/1) | [📄 힌트](./docs/problems/week1/13038_교환학생_힌트.md) |
-| 2 | 5215. 햄버거 다이어트 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/2) | [📄 힌트](./docs/problems/week1/5215_햄버거다이어트_힌트.md) |
-| 3 | 2503. 숫자야구 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/3) | [📄 힌트](./docs/problems/week1/2503_숫자야구_힌트.md) |
-| 4 | 14888. 연산자 끼워넣기 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/4) | [📄 힌트](./docs/problems/week1/14888_연산자_끼워넣기_힌트.md) |
-| 5 | 2659. 십자카드 문제 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/5) | [📄 힌트](./docs/problems/week1/2659_십자카드_문제_힌트.md) |
-| 6 | 14620. 꽃길 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/6) | [📄 힌트](./docs/problems/week1/14620_꽃길_힌트.md) |
+| 1 | 13038. 교환학생 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/2) | [📄 힌트](./docs/problems/week1/13038_교환학생_힌트.md) |
+| 2 | 5215. 햄버거 다이어트 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/3) | [📄 힌트](./docs/problems/week1/5215_햄버거다이어트_힌트.md) |
+| 3 | 2503. 숫자야구 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/4) | [📄 힌트](./docs/problems/week1/2503_숫자야구_힌트.md) |
+| 4 | 14888. 연산자 끼워넣기 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/5) | [📄 힌트](./docs/problems/week1/14888_연산자_끼워넣기_힌트.md) |
+| 5 | 2659. 십자카드 문제 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/6) | [📄 힌트](./docs/problems/week1/2659_십자카드_문제_힌트.md) |
+| 6 | 14620. 꽃길 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/7) | [📄 힌트](./docs/problems/week1/14620_꽃길_힌트.md) |
 
 </details>
 
