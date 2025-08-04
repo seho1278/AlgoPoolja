@@ -1,0 +1,53 @@
+name: Create Weekly Problem Issues
+
+on:
+  workflow_dispatch:  # 수동 실행만 허용
+
+jobs:
+  create_issues:
+    runs-on: ubuntu-latest
+
+    env:
+      GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Check gh auth  
+        run: gh auth status
+
+      - name: Create issues from YAML
+        run: |
+          python <<EOF
+          import yaml
+          from pathlib import Path
+          import os
+
+          # 최신 week*.yml 불러오기
+          path = sorted(Path(".github/weekly-problems").glob("week*.yml"))[-1]
+          with open(path, encoding="utf-8") as f:
+              data = yaml.safe_load(f)
+
+          week = data["week"]
+          topic = data["topic"]
+          problems = data["problems"]
+
+          for p in problems:
+              title = f"{week}주차 문제 {p['number']} <{p['title']}>"
+              body = f"**문제 {p['number']}: {p['title']}**\n\n[문제 사이트]({p['url']})"
+              labels = [p['platform'], p['level'], f"week{week}", topic]
+
+              label_str = ",".join(labels)
+              cmd = f'gh issue create --title "{title}" --body "{body}" --label "{label_str}"'
+              print(f"Running: {cmd}")
+              os.system(cmd)
+          EOF

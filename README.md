@@ -1,63 +1,62 @@
-# week1
+# 🧠 SSAFY Algorithm Study - AlgoPoolja
 
-1주차 문제 공유! 이번주 알고리즘 주제는 **완전탐색** 입니다!
-
-
-
-# 문제 목록
-
-## 문제 1: 13038. 교환학생
-**플랫폼**: SW Expert Academy  
-**링크**: https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AXxNn6GaPW4DFASZ&categoryId=AXxNn6GaPW4DFASZ&categoryType=CODE&problemTitle=13038&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1
-
-## 문제 2: 5215. 햄버거 다이어트
-**플랫폼**: SW Expert Academy  
-**링크**: https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWT-lPB6dHUDFAVT&categoryId=AWT-lPB6dHUDFAVT&categoryType=CODE&problemTitle=5215&orderBy=FIRST_REG_DATETIME&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1
-
-## 문제 3: 2503. 숫자야구
-**플랫폼**: 백준  
-**링크**: https://www.acmicpc.net/problem/2503
-
-## 문제 4: 14888. 연산자 끼워넣기
-**플랫폼**: 백준  
-**링크**: https://www.acmicpc.net/problem/14888
-
-## 문제 5: 2659. 십자카드 문제
-**플랫폼**: 백준  
-**링크**: https://www.acmicpc.net/problem/2659
-
-## 문제 6: 14620. 꽃길
-**플랫폼**: 백준  
-**링크**: https://www.acmicpc.net/problem/14620
+> **알고리즘 알고풀자**  
+> SSAFY 알고리즘 스터디 *AlgoPoolja*에 오신 것을 환영합니다 💻🌱  
+> 백준, SW Expert Academy 등 다양한 플랫폼에서 문제를 풀고,  
+> 코드 리뷰와 힌트 문서를 통해 문제를 풀고 velog에 풀이 글을 작성해보자!
 
 ---
 
-### 1. 프로젝트 Clone
-```bash
-git clone https://github.com/SSAFYstudyAlgoPoolja/week1
+## 📌 스터디 진행 방식
+
+- 매주 **1회 문제 출제** (6문제)
+- 플랫폼: `BOJ`, `SWEA` 등 다양하게 선정
+- 난이도: `Silver`, `Gold`, `D2~D4`
+- 문제는 `.github/weekly-problems/weekN.yml` 에서 관리
+- 각 문제 힌트는 `docs/problems/weekN/` 폴더에 `문제명_힌트.md`로 정리
+
+---
+
+## 🗂 주차별 문제 모음 (문제 & 힌트 링크)
+
+<details>
+<summary><strong>📁 Week 1 - 완전탐색</strong></summary>
+
+| 번호 | 문제 | 문제 | 힌트 |
+|------|------|------|------|
+| 1 | 13038. 교환학생 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/2) | [📄 힌트](./docs/problems/week1/13038_교환학생_힌트.md) |
+| 2 | 5215. 햄버거 다이어트 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/3) | [📄 힌트](./docs/problems/week1/5215_햄버거다이어트_힌트.md) |
+| 3 | 2503. 숫자야구 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/4) | [📄 힌트](./docs/problems/week1/2503_숫자야구_힌트.md) |
+| 4 | 14888. 연산자 끼워넣기 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/5) | [📄 힌트](./docs/problems/week1/14888_연산자_끼워넣기_힌트.md) |
+| 5 | 2659. 십자카드 문제 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/6) | [📄 힌트](./docs/problems/week1/2659_십자카드_문제_힌트.md) |
+| 6 | 14620. 꽃길 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/7) | [📄 힌트](./docs/problems/week1/14620_꽃길_힌트.md) |
+
+</details>
+
+---
+
+## 📁 프로젝트 구조
 ```
-
-### 2. STS에서 프로젝트 Import
-1. **File** → **Import** 선택
-2. **General** → **Existing Projects into Workspace** 선택
-3. **Select root directory**에서 clone한 `week1` 폴더 선택
-4. **Finish** 클릭
-
-### 3. 코드 작성 방법
-- **메인 코드 파일**: `src/Main.java`
-
-### 4. 프로젝트 구조
-```
-week1/
-├── src/
-│   └── Main.java          # 코드 작성 파일
+AlgoPoolja/
+├── .github/
+│   ├── workflows/                 # GitHub Actions 워크플로우 (자동화)
+│   └── weekly-problems/          # 주차별 문제 YAML 파일
+│       └── week1.yml
 ├── bin/
-│   └── Main.class         # 컴파일된 클래스 파일
-├── 문제별_힌트.md         # 각 문제별 힌트 파일
-└── README.md              # 이 파일
+│   └── Main.class                # 컴파일된 클래스 파일 (Java)
+├── docs/
+│   └── problems/
+│       └── week1/                # 주차별 힌트 파일 모음
+│           ├── 13038_교환학생_힌트.md
+│           ├── 5215_햄버거다이어트_힌트.md
+│           └── ...
+├── hyunbin/                      # 팀원별 풀이/코드 저장소
+├── dohee/                        # 여기선 파일 자유롭게 사용
+├── jimin/
+├── minseung/
+├── seho/
+├── youyeon/
+├── .gitignore                    # Git 무시 파일 설정
+├── README.md                     # 프로젝트 소개 문서
+├── .project                      # STS 등에서 사용하는 설정 파일
 ```
-
-### 5. 힌트 파일 활용
-- 각 문제별로 `[문제번호]_[문제명]_힌트.md` 파일이 제공됩니다
-- 문제를 풀기 전에 힌트 파일을 참고하여 접근 방법을 확인하세요
-
