@@ -33,7 +33,7 @@ public class problem1 {
 
             // 수업이 열리는 모든 요일을 시작일로 가정하여 반복
             for (int startDayIndex : classDaysIndices) {
-                // (n-1)개의 수업을 듣기 위해 필요한 '꽉 찬 주'의 수
+                // (n-1)개의 수업을 듣기 위해 필요한 꽉 찬 주의 수
                 long fullWeeks = (long)(n - 1) / classesPerWeek;
                 
                 // 꽉찬 주를 보내는 데 걸리는 일수
