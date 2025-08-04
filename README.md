@@ -17,7 +17,7 @@
 
 ---
 
-## 🗂 주차별 문제 모음 (이슈 & 힌트 링크)
+## 🗂 주차별 문제 모음 (문제 & 힌트 링크)
 
 <details>
 <summary><strong>📁 Week 1 - 완전탐색</strong></summary>
