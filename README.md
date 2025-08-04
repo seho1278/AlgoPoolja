@@ -22,7 +22,7 @@
 <details>
 <summary><strong>📁 Week 1 - 완전탐색</strong></summary>
 
-| 번호 | 문제 | 문제제 | 힌트 |
+| 번호 | 문제 | 문제 | 힌트 |
 |------|------|------|------|
 | 1 | 13038. 교환학생 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/2) | [📄 힌트](./docs/problems/week1/13038_교환학생_힌트.md) |
 | 2 | 5215. 햄버거 다이어트 | [🔗 이슈](https://github.com/SSAFYstudyAlgoPoolja/AlgoPoolja/issues/3) | [📄 힌트](./docs/problems/week1/5215_햄버거다이어트_힌트.md) |
