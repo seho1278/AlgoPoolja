@@ -49,6 +49,7 @@ public class problem2 {
 
             System.out.println("#" + test_case + " " + maxScore);
         }
+        
         sc.close();
     }
 }
